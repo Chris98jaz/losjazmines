@@ -1,0 +1,145 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de HTML con Formateo de Texto</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            font-size: 36px;
+        }
+        p {
+            font-size: 18px;
+            color: #34495e;
+            line-height: 1.6;
+            text-align: justify;
+        }
+        ul {
+            list-style-type: disc;
+            margin: 20px;
+            padding-left: 40px;
+        }
+        ol {
+            list-style-type: decimal;
+            margin: 20px;
+            padding-left: 40px;
+        }
+        .highlight {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #bdc3c7;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #2980b9;
+            color: white;
+        }
+        .bold {
+            font-weight: bold;
+        }
+        .italic {
+            font-style: italic;
+        }
+        .underline {
+            text-decoration: underline;
+        }
+        .justify {
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Ejemplo de Formateo en HTML</h1>
+
+    <p class="justify">
+        Este es un ejemplo de cómo puedes aplicar diferentes estilos de <span class="highlight">texto</span> en HTML. Aquí hemos usado <span class="highlight">color</span>, <span class="highlight">tamaño</span> de fuente, y <span class="highlight">alineamiento</span> de texto.
+        <br><br>
+        Puedes aplicar <span class="bold">negrita</span> para resaltar texto importante, <span class="italic">cursiva</span> para enfatizar palabras, y <span class="underline">subrayado</span> para destacar información crucial.
+        <br><br>
+        Además, este párrafo está alineado de forma justificada, lo que significa que el texto se extiende uniformemente hasta ambos márgenes, creando un borde recto a la izquierda y a la derecha. Esta técnica es común en documentos más formales como artículos y ensayos.
+    </p>
+
+    <p>
+        A continuación, mostramos una lista de las tecnologías web más populares:
+    </p>
+
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+    </ul>
+
+    <p>
+        Y aquí, una lista ordenada de pasos para crear una página web básica:
+    </p>
+
+    <ol>
+        <li>Crear el archivo HTML.</li>
+        <li>Añadir el contenido básico.</li>
+        <li>Aplicar estilos con CSS.</li>
+        <li>Incorporar interactividad con JavaScript.</li>
+    </ol>
+
+    <div class="image-container">
+        <img src="imagenes/imagen1.png" alt="Ejemplo de Imagen" width="500"align="center">
+        <p>Imagen representativa del ejemplo.</p>
+    </div>
+
+    <p>
+        Visita este <a href="https://www.w3schools.com/" target="_blank">enlace</a> para aprender más sobre HTML y CSS.
+    </p>
+
+    <h2>Tabla de Comparación</h2>
+
+    <table>
+        <tr>
+            <th>Lenguaje</th>
+            <th>Popularidad</th>
+            <th>Uso</th>
+        </tr>
+        <tr>
+            <td><span class="bold">HTML</span></td>
+            <td>Alta</td>
+            <td>Desarrollo Web</td>
+        </tr>
+        <tr>
+            <td><span class="italic">CSS</span></td>
+            <td>Alta</td>
+            <td>Estilos Web</td>
+        </tr>
+        <tr>
+            <td><span class="underline">JavaScript</span></td>
+            <td>Muy Alta</td>
+            <td>Interactividad Web</td>
+        </tr>
+        <tr>
+            <td>Python</td>
+            <td>Muy Alta</td>
+            <td>Programación General</td>
+        </tr>
+    </table>
+
+</body>
+</html>
